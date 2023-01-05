@@ -8,7 +8,7 @@ It is currently in a nonfunctional state.
 
 ##  Intended Features
 
-I intend to add websocket support to connect to a drone with 4G enabled, specifically [this model](https://github.com/StephenCarlson/MiniHawk-VTOL) by Stephen Carlson. The drone will be connected through 4G, and this interface aims to accomplish the following
+This app is intended to connect to a drone with 4G enabled, specifically [this model](https://github.com/StephenCarlson/MiniHawk-VTOL) by Stephen Carlson. With the connection, this interface aims to accomplish the following
 
 *   Connect to the drone via token or IP
 *   Automate it's behavior/flight
