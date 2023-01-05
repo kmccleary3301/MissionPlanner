@@ -1,6 +1,24 @@
-# Getting Started with Create React App
+#   Overview
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is an alternative to the mission planner for [ArduPilot](https://github.com/ArduPilot/ardupilot).
+
+It is written in [React.js](https://github.com/facebook/react) with TypeScript presets.
+
+It is currently in a nonfunctional state.
+
+##  Intended Features
+
+I intend to add websocket support to connect to a drone with 4G enabled, specifically [this model](https://github.com/StephenCarlson/MiniHawk-VTOL) by Stephen Carlson. The drone will be connected through 4G, and this interface aims to accomplish the following
+
+*   Connect to the drone via token or IP
+*   Automate it's behavior/flight
+*   Set a flight path with stops to recharge.
+*   Connect to the camera with WebRTC
+*   Connect with minimal latency
+*   Allow the user to take control of the drone remotely
+*   Everything done by the ArduPilot Mission Planner
+
+The connection will be made with WebSocket.
 
 ## Available Scripts
 
@@ -38,9 +56,3 @@ If you aren’t satisfied with the build tool and configuration choices, you can
 Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
